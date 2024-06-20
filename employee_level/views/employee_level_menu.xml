@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <menuitem id="employee_level_root" name="Employee Level">
+        <menuitem id="employee_level_menu" name="Level">
+        </menuitem>
+
+        <menuitem id="vehicle_configurations" name="Configurations">
+                 <menuitem id="employee_level" action="employee_level_action"/>
+        </menuitem>
+    </menuitem>
+    <menuitem id="employee_level_in_employee_settings" name="Employee Level" parent="hr.menu_human_resources_configuration" action="employee_level_action" sequence="1"/>
+</odoo>
